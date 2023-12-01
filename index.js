@@ -7,21 +7,18 @@ class classeDoHeroi {
     switch (true) {
       case this.tipoClasse == "mago":
         tipoAtaque = "magia";
-        console.log(`O ${this.tipoClasse} atacou utilizando ${tipoAtaque}`);
         break;
       case this.tipoClasse == "guerreiro":
         tipoAtaque = "espada";
-        console.log(`O ${this.tipoClasse} atacou utilizando ${tipoAtaque}`);
         break;
       case this.tipoClasse == "monge":
         tipoAtaque = "artes marciais";
-        console.log(`O ${this.tipoClasse} atacou utilizando ${tipoAtaque}`);
         break;
       case this.tipoClasse == "ninja":
         tipoAtaque = "shuriken";
-        console.log(`O ${this.tipoClasse} atacou utilizando ${tipoAtaque}`);
         break;
     }
+    console.log(`O ${this.tipoClasse} atacou utilizando ${tipoAtaque}`);
   }
 }
 
